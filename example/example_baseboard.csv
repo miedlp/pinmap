@@ -1,0 +1,28 @@
+﻿Column,Row,Bus      ,Signal            ,Status,Regex-Module    ,Regex-Function
+A     ,1 ,         ,Reset(All)         ,Closed,reset           ,
+A     ,2 ,         ,SPI0_CS0 (NOR)     ,Closed,SPI|CM|GPIO     ,CS|CSEL|IO
+A     ,3 ,         ,SPI0_CS1 (SD)      ,Closed,SPI|CM|GPIO     ,CS|CSEL|IO
+A     ,4 ,         ,SPI0_CS2_mikroeBus0,Open  ,SPI|CM|GPIO     ,CS|CSEL|IO
+A     ,5 ,         ,SPI0_CS3_mikroeBus1,Open  ,SPI|CM|GPIO     ,CS|CSEL|IO
+A     ,6 ,SPI0     ,SPI0_MISO          ,Closed,SPI|CM          ,MISO|SDI
+A     ,7 ,SPI0     ,SPI0_MOSI          ,Closed,SPI|CM          ,MOSI|SDO
+A     ,8 ,SPI0     ,SPI0_SCK           ,Closed,SPI|CM          ,SCK
+A     ,9 ,         ,5V0                ,Closed,5V              ,
+B     ,1 ,         ,DGND               ,Closed,GND             ,
+B     ,2 ,         ,3V3                ,Closed,3V3             ,
+B     ,3 ,         ,BUZZER             ,Open  ,GPIO            ,
+B     ,4 ,UART1    ,UART1_TXD          ,Closed,UART|CM         ,TX
+B     ,5 ,UART1    ,UART1_RXD          ,Closed,UART|CM         ,RX
+B     ,6 ,UART1    ,UART1_CTS          ,Closed,UART|CM         ,CTS
+B     ,7 ,UART1    ,UART1_RTS          ,Closed,UART|CM         ,RTS
+B     ,8 ,         ,ADC_Ain            ,Closed,ADC             ,
+B     ,9 ,I2C0     ,I2C0_SDA           ,Closed,I2C|CM          ,SDA
+C     ,1 ,I2C0     ,I2C0_SCL           ,Closed,I2C|CM          ,SCL
+C     ,2 ,UART0    ,UART0_TXD          ,Closed,UART|CM         ,TX
+C     ,3 ,UART0    ,UART0_RXD          ,Closed,UART|CM         ,RX
+C     ,4 ,UART0    ,UART0_CTS          ,Closed,UART|CM         ,CTS
+C     ,5 ,UART0    ,UART0_RTS          ,Closed,UART|CM         ,RTS
+C     ,6 ,UART2    ,UART2_TXD          ,Closed,UART|CM         ,TX
+C     ,7 ,UART2    ,UART2_RXD          ,Closed,UART|CM         ,RX
+C     ,8 ,I2C1     ,I2C1_SDA           ,Closed,I2C|CM          ,SDA
+C     ,9 ,I2C1     ,I2C1_SCL           ,Closed,I2C|CM          ,SCL
